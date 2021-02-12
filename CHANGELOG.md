@@ -1,5 +1,51 @@
 # Change Log
 This file tracks released versions with the changes made to this project.
+
+## [Version 1.3.33](https://github.com/SocketMobile/cocoapods-capture/releases/tag/1.3.33)
+
+### Bug Fixes
+* Fix issue where changing the list of favorited devices would not restart an auto-discovery for new devices that were not previously connected
+
+## [Version 1.3.28](https://github.com/SocketMobile/cocoapods-capture/releases/tag/1.3.28)
+
+### New
+* Added support for multi BLE connections
+
+### Bug Fixes
+* Fix the BLE device discovery close Device Manager
+
+
+## [Version 1.2.187](https://github.com/SocketMobile/cocoapods-capture/releases/tag/1.2.187)
+
+### New
+* XCFramework release (requires Cocoapods version 10.0 or higher)
+
+* Drop support for iOS9.1, minimum target version is iOS10.0
+
+### Bug Fixes
+* Fix the large payload read with S550
+
+## [Version 1.2.53](https://github.com/SocketMobile/cocoapods-capture/releases/tag/1.2.53)
+### Bug Fixes
+* Fix the occasional error -55 during Capture open
+
+## [Version 1.2.40](https://github.com/SocketMobile/cocoapods-capture/releases/tag/1.2.40)
+### Bug Fixes
+* Prevent forcibly unwrapping nil arguments in `didReceive(_:for:withResult)` function
+
+## [Version 1.2.36](https://github.com/SocketMobile/cocoapods-capture/releases/tag/1.2.36)
+### Bug Fixes
+  * Fixed issue with different decoded data format for S550
+  
+## [Version 1.2.9](https://github.com/SocketMobile/cocoapods-capture/releases/tag/1.2.9)
+### New
+  * Added support for new S550 line of RFID Readers
+  * - Includes reading the tag ID of an RFID card
+  * - Reading the friendly name
+  * - Reading the battery level
+  * - Reading the bluetooth address
+  * - Reading the firmware version
+
 ## [Version 1.1.384](https://github.com/SocketMobile/cocoapods-capture/releases/tag/1.1.384)
 ### Bug fixes
   * Used static function to avoid possible retain cycle.

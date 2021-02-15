@@ -3,22 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A4F5619922F4C544008EEF22 /* SKTCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F5619722F4C544008EEF22 /* SKTCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F561A622F4C608008EEF22 /* SktCaptureDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F5619F22F4C608008EEF22 /* SktCaptureDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F561A722F4C608008EEF22 /* SktCaptureErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F561A022F4C608008EEF22 /* SktCaptureErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F561A822F4C608008EEF22 /* SktCaptureEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F561A122F4C608008EEF22 /* SktCaptureEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F561A922F4C608008EEF22 /* SktCaptureVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F561A222F4C608008EEF22 /* SktCaptureVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F561AA22F4C608008EEF22 /* SktCaptureProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F561A322F4C608008EEF22 /* SktCaptureProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4EBDE0225DAA78F002CB926 /* SktCaptureProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = A4EBDDFA25DAA78F002CB926 /* SktCaptureProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4EBDE0325DAA78F002CB926 /* SktCaptureDeviceTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = A4EBDDFB25DAA78F002CB926 /* SktCaptureDeviceTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4EBDE0425DAA78F002CB926 /* SktCaptureErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = A4EBDDFC25DAA78F002CB926 /* SktCaptureErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4EBDE0525DAA78F002CB926 /* SKTCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = A4EBDDFD25DAA78F002CB926 /* SKTCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4EBDE0625DAA78F002CB926 /* SktCapturePropertyIds.h in Headers */ = {isa = PBXBuildFile; fileRef = A4EBDDFE25DAA78F002CB926 /* SktCapturePropertyIds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4EBDE0725DAA78F002CB926 /* SktCaptureEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = A4EBDDFF25DAA78F002CB926 /* SktCaptureEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4EBDE0825DAA78F002CB926 /* SktCaptureDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A4EBDE0025DAA78F002CB926 /* SktCaptureDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4EBDE0925DAA78F002CB926 /* SktCaptureVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = A4EBDE0125DAA78F002CB926 /* SktCaptureVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4EBDE0D25DAB0EB002CB926 /* SKTCapture.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EBDE0C25DAB0EA002CB926 /* SKTCapture.xcframework */; };
 		A4F561AB22F4C608008EEF22 /* CaptureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F561A422F4C608008EEF22 /* CaptureHelper.swift */; };
-		A4F561AC22F4C608008EEF22 /* SktCapturePropertyIds.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F561A522F4C608008EEF22 /* SktCapturePropertyIds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F561B222F4C66C008EEF22 /* softScanBeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = A4F561B022F4C66C008EEF22 /* softScanBeep.wav */; };
 		A4F561B322F4C66C008EEF22 /* socketmobilepublickey.pem in Resources */ = {isa = PBXBuildFile; fileRef = A4F561B122F4C66C008EEF22 /* socketmobilepublickey.pem */; };
-		A4F561B622F4C71D008EEF22 /* libCaptureCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F561B422F4C71C008EEF22 /* libCaptureCore.a */; };
-		A4F561B722F4C71D008EEF22 /* libCaptureServiceDirect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F561B522F4C71D008EEF22 /* libCaptureServiceDirect.a */; };
 		A4F561BC22F4DC63008EEF22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F561BB22F4DC63008EEF22 /* UIKit.framework */; };
 		A4F561BE22F4DC72008EEF22 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F561BD22F4DC72008EEF22 /* AVFoundation.framework */; };
 		A4F561C022F4DC82008EEF22 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F561BF22F4DC82008EEF22 /* ExternalAccessory.framework */; };
@@ -28,16 +28,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A4EBDDFA25DAA78F002CB926 /* SktCaptureProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SktCaptureProperty.h; path = "lib/SKTCapture.xcframework/ios-arm64_i386_x86_64-simulator/Headers/SktCaptureProperty.h"; sourceTree = "<group>"; };
+		A4EBDDFB25DAA78F002CB926 /* SktCaptureDeviceTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SktCaptureDeviceTypes.h; path = "lib/SKTCapture.xcframework/ios-arm64_i386_x86_64-simulator/Headers/SktCaptureDeviceTypes.h"; sourceTree = "<group>"; };
+		A4EBDDFC25DAA78F002CB926 /* SktCaptureErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SktCaptureErrors.h; path = "lib/SKTCapture.xcframework/ios-arm64_i386_x86_64-simulator/Headers/SktCaptureErrors.h"; sourceTree = "<group>"; };
+		A4EBDDFD25DAA78F002CB926 /* SKTCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTCapture.h; path = "lib/SKTCapture.xcframework/ios-arm64_i386_x86_64-simulator/Headers/SKTCapture.h"; sourceTree = "<group>"; };
+		A4EBDDFE25DAA78F002CB926 /* SktCapturePropertyIds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SktCapturePropertyIds.h; path = "lib/SKTCapture.xcframework/ios-arm64_i386_x86_64-simulator/Headers/SktCapturePropertyIds.h"; sourceTree = "<group>"; };
+		A4EBDDFF25DAA78F002CB926 /* SktCaptureEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SktCaptureEvent.h; path = "lib/SKTCapture.xcframework/ios-arm64_i386_x86_64-simulator/Headers/SktCaptureEvent.h"; sourceTree = "<group>"; };
+		A4EBDE0025DAA78F002CB926 /* SktCaptureDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SktCaptureDataSource.h; path = "lib/SKTCapture.xcframework/ios-arm64_i386_x86_64-simulator/Headers/SktCaptureDataSource.h"; sourceTree = "<group>"; };
+		A4EBDE0125DAA78F002CB926 /* SktCaptureVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SktCaptureVersion.h; path = "lib/SKTCapture.xcframework/ios-arm64_i386_x86_64-simulator/Headers/SktCaptureVersion.h"; sourceTree = "<group>"; };
+		A4EBDE0A25DAB0A5002CB926 /* libCapture.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCapture.a; path = "lib/SKTCapture.xcframework/ios-arm64_armv7/libCapture.a"; sourceTree = "<group>"; };
+		A4EBDE0C25DAB0EA002CB926 /* SKTCapture.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SKTCapture.xcframework; path = lib/SKTCapture.xcframework; sourceTree = "<group>"; };
 		A4F5619422F4C544008EEF22 /* SKTCapture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKTCapture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4F5619722F4C544008EEF22 /* SKTCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKTCapture.h; sourceTree = "<group>"; };
 		A4F5619822F4C544008EEF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4F5619F22F4C608008EEF22 /* SktCaptureDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SktCaptureDataSource.h; sourceTree = SOURCE_ROOT; };
-		A4F561A022F4C608008EEF22 /* SktCaptureErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SktCaptureErrors.h; sourceTree = SOURCE_ROOT; };
-		A4F561A122F4C608008EEF22 /* SktCaptureEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SktCaptureEvent.h; sourceTree = SOURCE_ROOT; };
-		A4F561A222F4C608008EEF22 /* SktCaptureVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SktCaptureVersion.h; sourceTree = SOURCE_ROOT; };
-		A4F561A322F4C608008EEF22 /* SktCaptureProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SktCaptureProperty.h; sourceTree = SOURCE_ROOT; };
 		A4F561A422F4C608008EEF22 /* CaptureHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureHelper.swift; sourceTree = SOURCE_ROOT; };
-		A4F561A522F4C608008EEF22 /* SktCapturePropertyIds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SktCapturePropertyIds.h; sourceTree = SOURCE_ROOT; };
 		A4F561B022F4C66C008EEF22 /* softScanBeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = softScanBeep.wav; sourceTree = SOURCE_ROOT; };
 		A4F561B122F4C66C008EEF22 /* socketmobilepublickey.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = socketmobilepublickey.pem; sourceTree = SOURCE_ROOT; };
 		A4F561B422F4C71C008EEF22 /* libCaptureCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCaptureCore.a; path = lib/libCaptureCore.a; sourceTree = SOURCE_ROOT; };
@@ -55,14 +58,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4EBDE0D25DAB0EB002CB926 /* SKTCapture.xcframework in Frameworks */,
 				A4F561C622F4DE0B008EEF22 /* libc++.tbd in Frameworks */,
 				A4F561C422F4DDEB008EEF22 /* CoreBluetooth.framework in Frameworks */,
 				A4F561C222F4DC94008EEF22 /* AudioToolbox.framework in Frameworks */,
 				A4F561C022F4DC82008EEF22 /* ExternalAccessory.framework in Frameworks */,
 				A4F561BE22F4DC72008EEF22 /* AVFoundation.framework in Frameworks */,
 				A4F561BC22F4DC63008EEF22 /* UIKit.framework in Frameworks */,
-				A4F561B622F4C71D008EEF22 /* libCaptureCore.a in Frameworks */,
-				A4F561B722F4C71D008EEF22 /* libCaptureServiceDirect.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,13 +111,14 @@
 		A4F561AE22F4C63F008EEF22 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				A4F5619722F4C544008EEF22 /* SKTCapture.h */,
-				A4F5619F22F4C608008EEF22 /* SktCaptureDataSource.h */,
-				A4F561A022F4C608008EEF22 /* SktCaptureErrors.h */,
-				A4F561A122F4C608008EEF22 /* SktCaptureEvent.h */,
-				A4F561A322F4C608008EEF22 /* SktCaptureProperty.h */,
-				A4F561A522F4C608008EEF22 /* SktCapturePropertyIds.h */,
-				A4F561A222F4C608008EEF22 /* SktCaptureVersion.h */,
+				A4EBDDFD25DAA78F002CB926 /* SKTCapture.h */,
+				A4EBDE0025DAA78F002CB926 /* SktCaptureDataSource.h */,
+				A4EBDDFB25DAA78F002CB926 /* SktCaptureDeviceTypes.h */,
+				A4EBDDFC25DAA78F002CB926 /* SktCaptureErrors.h */,
+				A4EBDDFF25DAA78F002CB926 /* SktCaptureEvent.h */,
+				A4EBDDFA25DAA78F002CB926 /* SktCaptureProperty.h */,
+				A4EBDDFE25DAA78F002CB926 /* SktCapturePropertyIds.h */,
+				A4EBDE0125DAA78F002CB926 /* SktCaptureVersion.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -149,6 +152,8 @@
 		A4F561BA22F4DC63008EEF22 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A4EBDE0C25DAB0EA002CB926 /* SKTCapture.xcframework */,
+				A4EBDE0A25DAB0A5002CB926 /* libCapture.a */,
 				A4F561C522F4DE0B008EEF22 /* libc++.tbd */,
 				A4F561C322F4DDEB008EEF22 /* CoreBluetooth.framework */,
 				A4F561C122F4DC94008EEF22 /* AudioToolbox.framework */,
@@ -166,13 +171,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F5619922F4C544008EEF22 /* SKTCapture.h in Headers */,
-				A4F561A722F4C608008EEF22 /* SktCaptureErrors.h in Headers */,
-				A4F561A922F4C608008EEF22 /* SktCaptureVersion.h in Headers */,
-				A4F561AC22F4C608008EEF22 /* SktCapturePropertyIds.h in Headers */,
-				A4F561A622F4C608008EEF22 /* SktCaptureDataSource.h in Headers */,
-				A4F561A822F4C608008EEF22 /* SktCaptureEvent.h in Headers */,
-				A4F561AA22F4C608008EEF22 /* SktCaptureProperty.h in Headers */,
+				A4EBDE0525DAA78F002CB926 /* SKTCapture.h in Headers */,
+				A4EBDE0825DAA78F002CB926 /* SktCaptureDataSource.h in Headers */,
+				A4EBDE0325DAA78F002CB926 /* SktCaptureDeviceTypes.h in Headers */,
+				A4EBDE0625DAA78F002CB926 /* SktCapturePropertyIds.h in Headers */,
+				A4EBDE0425DAA78F002CB926 /* SktCaptureErrors.h in Headers */,
+				A4EBDE0925DAA78F002CB926 /* SktCaptureVersion.h in Headers */,
+				A4EBDE0225DAA78F002CB926 /* SktCaptureProperty.h in Headers */,
+				A4EBDE0725DAA78F002CB926 /* SktCaptureEvent.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +402,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
+					"$(PROJECT_DIR)/lib/SKTCapture.xcframework/ios-arm64_armv7",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fivesquaresoftware.SKTCapture;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -427,6 +434,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
+					"$(PROJECT_DIR)/lib/SKTCapture.xcframework/ios-arm64_armv7",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fivesquaresoftware.SKTCapture;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
